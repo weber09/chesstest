@@ -1,4 +1,10 @@
 
 $(document).ready(function(){
-    var board = ChessBoard('board', 'start');
+    var config = {
+draggable: true,
+dropOffBoard: 'snapback',
+position: 'start'
+    };
+
+    var board = ChessBoard('board', config);
 });
