@@ -1,0 +1,2 @@
+# chesstest
+Chess alg tests
